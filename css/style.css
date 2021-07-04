@@ -1,0 +1,212 @@
+#gamefield {
+	
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	border-radius: 20px;
+	border: 4px;
+	border-style: outset;
+	background-image: url(../images/back-2.jpg);
+	background-size: 600px 400px;
+	margin-top: 5%;
+	position: relative;
+	overflow: hidden;
+
+}
+.ball {
+	background-image: url(../images/sphere.png);
+	background-size: 50px 50px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 50%;
+	position: absolute;
+	top: -100px;
+	left: -100px;
+	transition: all 1s;
+	cursor: pointer;	
+}
+.left {
+	top: 500px;
+	left: -100px;	
+}
+.right {
+	top: 500px;
+	left: 700px;
+}
+#pointsid {
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	display:block;
+}
+			#lifesid {
+				position: absolute;
+				top: 8px;
+				right: 16px;
+				display:block;
+			} 
+
+			#lifescountid  {
+				display: block;
+				width: 15px;
+				height: 15px;
+				border-radius: 50%;
+				border: 1px solid black;
+				background: red;
+				margin: 5px;
+				float: left;
+				transition: all 5s;	
+			}
+			#lifesid  span {
+				display: block;
+				width: 20px;
+				height: 20px;
+				border-radius: 50%;
+				border: 1px solid black;
+				background-image: url(../images/sphere.png);
+				background-size: 20px 20px;
+				margin: 4px;
+				float: left;
+				transition: all 1s;	
+			}
+#startblock_id {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/startbutton12.jpg);
+    background-size: 600px 435px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 15px;
+	border: 5px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.466);
+}
+#startbutton_id {
+	display: block;
+    position: absolute;
+    top: 171px;
+    left: 200px;
+    border-radius: 10px;
+	border: 3px;
+	border-style: outset;
+    padding: 10px 63px;
+    font-size: 20px;
+    width: 209px;
+    height: 76px;
+    background-image: url(../images/ToolPanelBack.jpg);
+    background-size: 232px 95px;
+		cursor: pointer;
+}
+ #helloPhrase {
+ 	margin: 11px 22px;
+    padding: 5px 70px;
+    font-size: 24px;
+    position: absolute;
+    top: 260px;
+    left: 10px;
+    text-align: center;
+    color: #505050;
+    margin-top: 14px;
+    font-family: sans-serif;
+ }
+
+#gameover-panel {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 11px;
+	background-image: url(../images/back-gameover.jpg);
+	background-size: 600px 400px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.466);
+	
+}
+#gameover-panel button {
+	margin: 164px auto;
+    display: block;
+    padding: 30px 57px;
+    border-radius: 10px;
+    border: 4px;
+    border-style: outset;
+    font-size: 16px;
+    background-image: url(../images/ToolPanelBack.jpg);
+	background-size: 600px 300px;
+
+}
+#yourpoints_id {
+    margin: 11px 22px;
+    padding: 5px 70px;
+    font-size: 24px;
+    position: absolute;
+    top: 309px;
+    left: 10px;
+    text-align: center;
+    color: #af0000;
+    margin-top: 14px;
+    font-family: sans-serif;
+}
+#bottompanel {
+	
+	width: 600px;
+	height: 50px;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: 4px;
+	border-style: outset;
+	background-image: url(../images/ToolPanelBack.jpg);
+	background-size: 600px 300px;
+	margin-top: 20px;
+	position: relative;
+	display: block;
+}
+
+#gamename {
+	display: block;
+	position: relative;
+	margin-left: 28px;
+	margin-right: 53px;
+	float: left;
+	margin-top: 19px;
+	}
+#infoblock {
+	display: block;
+	width: 200px;
+	height: 40px;
+	position: relative;
+	margin: 0px;
+	margin-left: 10px;
+	margin-right: 53px;
+	float: left;
+	}
+
+#timer-position {
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	display: block;
+}
+h2 {
+	display: block;
+    font-size: 20px;
+    position: absolute;
+    top: -2px;
+    left: -20px;
+    color: #515151;
+    font-family: sans-serif;
+}
+#gameover-button {
+	cursor: pointer;
+}
+/*margin: 5px 22px;
+    padding: 5px 11px;
+    font-size: 32px;
+    
+    text-align: center;
+    color: silver;
+    margin-top: 14px;
+    font-family: sans-serif;*/
